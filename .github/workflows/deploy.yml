@@ -5,10 +5,23 @@ on:
     branches:
       - main
 
+# 允許併發部署控制（選填，但建議加上）：
+# 當有新的 push 時，取消正在進行中的舊部署，節省資源
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     
+    # --- 修正部分開始 ---
+    # 這裡是之前報錯的原因，必須指定環境名稱
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # --- 修正部分結束 ---
+
     permissions:
       contents: read
       pages: write
