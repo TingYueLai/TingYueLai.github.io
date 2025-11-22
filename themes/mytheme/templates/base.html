@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="site-title">{{ SITENAME }}</div>
+        <nav>
+            <ul>
+                <li><a href="{{ SITEURL }}/">HOME</a></li>
+                {% for title, link in MENUITEMS %}
+                <li><a href="{{ SITEURL }}/{{ link }}">{{ title }}</a></li>
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                {% for page in pages %}
+                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+                {% endif %}
+                {% if DISPLAY_CATEGORIES_ON_MENU %}
+                {% for cat, null in categories %}
+                <li><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                {% endfor %}
+                {% endif %}
+            </ul>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search articles...">
+                <div id="search-results"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            {% block content %}{% endblock %}
+        </div>
+
+        <div class="sidebar">
+            <div class="widget">
+                <h3>Statistics</h3>
+                <ul>
+                    <li>Total Views: 2,711,241 (Mock)</li>
+                    <li>Total Posts: {{ articles|length }}</li>
+                </ul>
+            </div>
+
+            <div class="widget">
+                <h3>By Category</h3>
+                <ul>
+                    {% for cat, null in categories %}
+                    <li><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; {{ articles[0].date.strftime('%Y') if articles else '2025' }} {{ AUTHOR }}. Powered by Pelican.
+    </footer>
+
+    <script src="{{ SITEURL }}/theme/js/search.js"></script>
+</body>
+
+</html>

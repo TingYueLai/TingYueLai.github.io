@@ -1,0 +1,12 @@
+{
+"items": [
+{% for article in articles %}
+{
+"title": "{{ article.title|striptags|replace('"', '\\"') }}",
+"url": "{{ SITEURL }}/{{ article.url }}",
+"summary": "{{ article.summary|striptags|replace('"', '\\"')|replace('\n', ' ')|truncate(200) }}",
+"category": "{{ article.category }}"
+}{{ "," if not loop.last }}
+{% endfor %}
+]
+}
