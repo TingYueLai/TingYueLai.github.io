@@ -8,7 +8,7 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 # 請將下面的網址改成您的 GitHub Pages 網址
-SITEURL = 'https://peter-yue1.github.io'
+SITEURL = 'https://tingyuelai.github.io'
 RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
