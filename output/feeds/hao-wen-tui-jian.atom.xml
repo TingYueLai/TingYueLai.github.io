@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yue 的blog - 好文推薦</title><link href="https://peter-yue1.github.io/" rel="alternate"/><link href="http://TingYueLai.github.io/feeds/hao-wen-tui-jian.atom.xml" rel="self"/><id>https://peter-yue1.github.io/</id><updated>2025-11-22T15:00:00+08:00</updated><entry><title>演算法學習筆記：排序演算法</title><link href="https://peter-yue1.github.io/sorting-notes.html" rel="alternate"/><published>2025-11-22T15:00:00+08:00</published><updated>2025-11-22T15:00:00+08:00</updated><author><name>Peter Yue</name></author><id>tag:peter-yue1.github.io,2025-11-22:/sorting-notes.html</id><summary type="html">&lt;p&gt;各種排序演算法的複雜度分析與實作。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;排序演算法&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;泡沫排序&lt;/li&gt;
+&lt;li&gt;快速排序&lt;/li&gt;
+&lt;li&gt;合併排序&lt;/li&gt;
+&lt;/ol&gt;</content><category term="好文推薦"/><category term="algorithm"/><category term="sorting"/></entry></feed>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yue 的blog - 有趣的程式</title><link href="https://peter-yue1.github.io/" rel="alternate"/><link href="http://TingYueLai.github.io/feeds/you-qu-de-cheng-shi.atom.xml" rel="self"/><id>https://peter-yue1.github.io/</id><updated>2025-11-22T22:00:00+08:00</updated><entry><title>第二篇精彩文章：深入 Pelican</title><link href="https://peter-yue1.github.io/second-post.html" rel="alternate"/><published>2025-11-22T22:00:00+08:00</published><updated>2025-11-22T22:00:00+08:00</updated><author><name>Peter Yue</name></author><id>tag:peter-yue1.github.io,2025-11-22:/second-post.html</id><summary type="html">&lt;p&gt;這是第二篇範例文章，展示更多內容。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;深入探索&lt;/h1&gt;
+&lt;p&gt;這是我們的第二篇文章。在首頁（Index 頁面）上，您應該會看到這篇文章出現在列表的最上方（因為它的時間比較新）。&lt;/p&gt;
+&lt;h2&gt;程式碼範例&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hello&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Hello, Pelican!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;列表測試&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;第一點&lt;/li&gt;
+&lt;li&gt;第二點&lt;/li&gt;
+&lt;li&gt;第三點&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;希望您喜歡這個新的部落格系統！&lt;/p&gt;</content><category term="有趣的程式"/><category term="pelican"/><category term="tutorial"/></entry><entry><title>我的第一篇 Pelican 文章</title><link href="https://peter-yue1.github.io/my-first-post.html" rel="alternate"/><published>2025-11-22T21:30:00+08:00</published><updated>2025-11-22T21:30:00+08:00</updated><author><name>Peter Yue</name></author><id>tag:peter-yue1.github.io,2025-11-22:/my-first-post.html</id><summary type="html">&lt;p&gt;這是我的第一篇使用 Pelican 建立的部落格文章。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;歡迎來到 Pelican&lt;/h1&gt;
+&lt;p&gt;這是一個使用 Python Pelican 靜態網站產生器建立的部落格。&lt;/p&gt;
+&lt;h2&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;支援 Markdown&lt;/li&gt;
+&lt;li&gt;純靜態檔案，速度快&lt;/li&gt;
+&lt;li&gt;Python 生態系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這是一段測試文字。&lt;/p&gt;</content><category term="有趣的程式"/><category term="pelican"/><category term="python"/><category term="blog"/></entry><entry><title>C++ 基礎語法：指標與參考</title><link href="https://peter-yue1.github.io/cpp-pointer.html" rel="alternate"/><published>2025-11-21T10:00:00+08:00</published><updated>2025-11-21T10:00:00+08:00</updated><author><name>Peter Yue</name></author><id>tag:peter-yue1.github.io,2025-11-21:/cpp-pointer.html</id><summary type="html">&lt;p&gt;深入理解 C++ 的指標。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;指標介紹&lt;/h1&gt;
+&lt;p&gt;指標是一個變數，其值為另一個變數的記憶體位址...&lt;/p&gt;</content><category term="有趣的程式"/><category term="cpp"/><category term="pointer"/></entry></feed>
