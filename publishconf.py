@@ -7,8 +7,9 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = ''
-RELATIVE_URLS = False
+# 請將下面的網址改成您的 GitHub Pages 網址
+SITEURL = 'https://peter-yue1.github.io'
+RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
