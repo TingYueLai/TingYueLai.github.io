@@ -163,3 +163,28 @@ git push
 ```
 
 GitHub Actions 會自動幫您重新生成並部署網站！
+
+---
+
+## 7. 使用自訂網域（選用）
+
+如果您想使用自己的網域（例如 `blog.yue-lai.com`）而不是 GitHub 提供的網址：
+
+### DNS 設定
+
+前往您的網域服務商（如 Cloudflare、GoDaddy 等），新增以下 DNS 記錄：
+
+**CNAME 記錄：**
+- **Name/Host**: `blog`（或您想要的子網域）
+- **Value/Target**: `tingyuelai.github.io`
+- **TTL**: Auto 或 3600
+
+### GitHub Pages 設定
+
+1. 前往 GitHub Repository → Settings → Pages
+2. 在 "Custom domain" 欄位輸入：`blog.yue-lai.com`
+3. 點擊 Save
+4. 等待 DNS 檢查完成（可能需要幾分鐘到幾小時）
+5. 勾選 "Enforce HTTPS"（DNS 生效後）
+
+**注意**：CNAME 檔案已經自動設定好了，每次部署都會包含在內。
