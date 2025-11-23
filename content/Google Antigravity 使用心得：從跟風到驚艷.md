@@ -2,7 +2,7 @@ Title: google Antigravity 使用心得
 Date: 2025-11-23 16:52
 Category: 好文推薦
 Tags: LLM,tools,vibe codeing
-Slug: sorting-notes
+Slug: google-Antigravity-2025-11-23
 Summary:  google Antigravity 使用心得
 
 # Google Antigravity 使用心得：從跟風到驚艷
