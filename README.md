@@ -188,3 +188,50 @@ GitHub Actions 會自動幫您重新生成並部署網站！
 5. 勾選 "Enforce HTTPS"（DNS 生效後）
 
 **注意**：CNAME 檔案已經自動設定好了，每次部署都會包含在內。
+
+---
+
+## 8. 在文章中加入圖片
+
+### 方法一：使用外部圖片連結
+
+直接在 Markdown 文章中使用圖片網址：
+
+```markdown
+![圖片描述](https://example.com/image.jpg)
+```
+
+### 方法二：使用本地圖片（推薦）
+
+1. **將圖片放入 `content/images/` 資料夾**
+   - 例如：`content/images/my-photo.jpg`
+
+2. **在文章中引用**
+
+```markdown
+![圖片描述]({static}/images/my-photo.jpg)
+```
+
+或使用相對路徑：
+
+```markdown
+![圖片描述](images/my-photo.jpg)
+```
+
+**範例：**
+
+```markdown
+Title: 我的文章
+Date: 2025-11-23 10:00
+Category: 有趣的程式
+
+# 文章標題
+
+這是一張圖片：
+
+![我的截圖]({static}/images/screenshot.png)
+
+繼續文章內容...
+```
+
+**支援的圖片格式**：`.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`

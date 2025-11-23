@@ -13,7 +13,7 @@ Summary:  google Antigravity 使用心得
 
 一開始打開它時，介面長這樣：
 
-![pic](../themes/mytheme/static/pic/1.png "我是第一張圖")
+![pic]({static}/images/1.png "我是第一張圖")
 
 起初我心想，這大概又是一個無聊的 Vibe Coding 工具吧？就像 Cursor、Windsurf 或 ROO 那些，感覺像是系統廠跟風推出的產品。
 
@@ -33,7 +33,7 @@ Summary:  google Antigravity 使用心得
 
 它可以自動 **Trace 網頁幫你 Debug**！這真的超酷炫，你只要把任務丟下去，它會自動模擬成 User 來 Trace 整個網頁的運作流程(Chrome 藍藍的就是代表他在調用中)。
 
-![pic](../themes/mytheme/static/pic/2.png "我是第二張圖")
+![pic]({static}/images/2.png  "我是第二張圖")
 
 **OH MY GOD 她好厲害！**
 

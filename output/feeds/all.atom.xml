@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Yue 的blog</title><link href="http://TingYueLai.github.io/" rel="alternate"/><link href="http://TingYueLai.github.io/feeds/all.atom.xml" rel="self"/><id>http://TingYueLai.github.io/</id><updated>2025-11-22T23:30:00+08:00</updated><entry><title>廢文專區第一篇：今天天氣不錯</title><link href="http://TingYueLai.github.io/random-post-1.html" rel="alternate"/><published>2025-11-22T23:30:00+08:00</published><updated>2025-11-22T23:30:00+08:00</updated><author><name>Peter Yue</name></author><id>tag:tingyuelai.github.io,2025-11-22:/random-post-1.html</id><summary type="html">&lt;p&gt;這裡是用來發廢文的地方。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;廢文專區&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yue 的blog</title><link href="http://TingYueLai.github.io/" rel="alternate"/><link href="http://TingYueLai.github.io/feeds/all.atom.xml" rel="self"/><id>http://TingYueLai.github.io/</id><updated>2025-11-23T16:52:00+08:00</updated><entry><title>google Antigravity 使用心得</title><link href="http://TingYueLai.github.io/google-Antigravity-2025-11-23.html" rel="alternate"/><published>2025-11-23T16:52:00+08:00</published><updated>2025-11-23T16:52:00+08:00</updated><author><name>Peter Yue</name></author><id>tag:tingyuelai.github.io,2025-11-23:/google-Antigravity-2025-11-23.html</id><summary type="html">&lt;p&gt;google Antigravity 使用心得&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Google Antigravity 使用心得：從跟風到驚艷&lt;/h1&gt;
+&lt;p&gt;今天是個風和日麗的日子，想說已經荒廢太久，應該來接觸一些新東西。就算不是純技術深究，當作新知吸收也不錯，於是就有了這篇文章。&lt;/p&gt;
+&lt;h2&gt;只是另一個 Vibe Coding 工具？&lt;/h2&gt;
+&lt;p&gt;一開始打開它時，介面長這樣：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pic" src="http://TingYueLai.github.io/images/1.png" title="我是第一張圖"&gt;&lt;/p&gt;
+&lt;p&gt;起初我心想，這大概又是一個無聊的 Vibe Coding 工具吧？就像 Cursor、Windsurf 或 ROO 那些，感覺像是系統廠跟風推出的產品。&lt;/p&gt;
+&lt;p&gt;不過，既然都打開了，就照慣例測試一下（順帶一提，這個 Blog 就是用它做出來的）。實際測試後發現它其實蠻好用的，甚至算得上聰明。不知道是不是因為加持了 &lt;strong&gt;Gemini 3.0&lt;/strong&gt; 的關係，操作上我覺得比其他競品來得更簡單直覺。&lt;/p&gt;
+&lt;p&gt;但這裡有個大問題。身為一個有訂閱 &lt;strong&gt;Google AI PRO&lt;/strong&gt; 的付費人類，我一開始進入 IDE 時它要求登入 Google 帳號，我天真地以為會有什麼「3.0 流量用到飽」或是「2.5 用到爽」之類的尊榮待遇。&lt;/p&gt;
+&lt;p&gt;結果很悲慘，模型只有 &lt;strong&gt;Gemini 3.0&lt;/strong&gt; 跟 &lt;strong&gt;Claude Sonnet 4.5&lt;/strong&gt;，這倒是不意外（畢竟是 Google 的產品），但令人意外的是 &lt;strong&gt;Token 數居然有限制&lt;/strong&gt;！我在網路上衝浪查了一下，發現不管你是免費仔，還是付了大錢的訂閱制「盤子」，流量限制竟然是一樣的。這點讓我突然覺得大失所望......好吧，沒事。&lt;/p&gt;
+&lt;h2&gt;真正驚喜的地方：自動 Trace Debug&lt;/h2&gt;
+&lt;p&gt;反正本來以為它就是一個很普通的 Vibe Coding 工具，做完基本測試就準備去睡覺了。畢竟目前的 Vibe Coding 工具有個通病：它無法解決「人機迴圈」的繁瑣——每次遇到 Bug，我都要手動把錯誤訊息複製給它，等它修好。&lt;/p&gt;
+&lt;p&gt;我不喜歡這個步驟，這讓我覺得自己很廢，彷彿只是 AI 的「工人智慧」搬運工。相比之下，直接問 Gemini 我至少還能跟它問答、自己修 Bug，還能學到東西；直接叫 Vibe Coding 修根本無趣。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;殊不知，這時候我發現了它最酷炫的功能。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;它可以自動 &lt;strong&gt;Trace 網頁幫你 Debug&lt;/strong&gt;！這真的超酷炫，你只要把任務丟下去，它會自動模擬成 User 來 Trace 整個網頁的運作流程(Chrome 藍藍的就是代表他在調用中)。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pic" src="http://TingYueLai.github.io/images/2.png" title="我是第二張圖"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OH MY GOD 她好厲害！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;不過它也有一些明顯的缺點，在目前的代理模式（Agent Mode）下 &lt;strong&gt;速度很慢&lt;/strong&gt;。
+目前我是在 Windows 桌機上使用，規格如下：
+* &lt;strong&gt;CPU:&lt;/strong&gt; i7-10700
+* &lt;strong&gt;RAM:&lt;/strong&gt; 24G
+* &lt;strong&gt;GPU:&lt;/strong&gt; RTX 2060&lt;/p&gt;
+&lt;p&gt;我不知道跟電腦效能的關係有多大，因為我看資源占用其實還沒滿。雖然它有提示我 RAM 不夠，但明明才使用了 67%，看來是該擴充記憶體的時候了（但現在記憶體好貴...）。
+我查了影片，發現大家似乎都丟在 Mac 上跑，改天來試試看在 MacOS 上執行的效果如何。&lt;/p&gt;
+&lt;h2&gt;結語&lt;/h2&gt;
+&lt;p&gt;我覺得我要被取代了，Google 真的好強。&lt;/p&gt;
+&lt;p&gt;除了基本的 Coding 功能之外，最令我驚奇的還是那個 &lt;strong&gt;自動 Trace&lt;/strong&gt; 功能。雖然目前用起來還蠻卡頓的，說不定自己用「工人智慧」Debug 還比較快，但這方向絕對是未來。&lt;/p&gt;
+&lt;p&gt;就等它優化吧！&lt;/p&gt;</content><category term="好文推薦"/><category term="LLM"/><category term="tools"/><category term="vibe codeing"/></entry><entry><title>廢文專區第一篇：今天天氣不錯</title><link href="http://TingYueLai.github.io/random-post-1.html" rel="alternate"/><published>2025-11-22T23:30:00+08:00</published><updated>2025-11-22T23:30:00+08:00</updated><author><name>Peter Yue</name></author><id>tag:tingyuelai.github.io,2025-11-22:/random-post-1.html</id><summary type="html">&lt;p&gt;這裡是用來發廢文的地方。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;廢文專區&lt;/h1&gt;
 &lt;p&gt;這是一個測試文章，用來填充「廢文專區」這個分類。&lt;/p&gt;</content><category term="廢文專區"/><category term="random"/></entry><entry><title>Zerojudge d273. 11584 - Partitioning by Palindromes</title><link href="http://TingYueLai.github.io/zerojudge-d273.html" rel="alternate"/><published>2025-11-22T23:00:00+08:00</published><updated>2025-11-22T23:00:00+08:00</updated><author><name>Peter Yue</name></author><id>tag:tingyuelai.github.io,2025-11-22:/zerojudge-d273.html</id><summary type="html">&lt;p&gt;這是一篇關於 Zerojudge d273 的解題心得。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;題目說明&lt;/h1&gt;
 &lt;p&gt;這裡放置題目說明...&lt;/p&gt;
 &lt;h1&gt;解題思路&lt;/h1&gt;
