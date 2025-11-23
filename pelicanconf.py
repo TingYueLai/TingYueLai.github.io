@@ -48,7 +48,7 @@ RELATIVE_URLS = True
 TEMPLATE_PAGES = {'search_json.html': 'feeds/all.json'}
 
 # Static files (CNAME for custom domain)
-STATIC_PATHS = ['extra']
+STATIC_PATHS = ['extra', 'images']
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
 }
