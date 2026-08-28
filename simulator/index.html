@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中興大學資訊社模擬器</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- 首頁/開始畫面 -->
+    <div id="screen-start" class="screen active">
+      <h1>🎓 中興大學資訊社模擬器 💻</h1>
+      <p style="color: var(--secondary-color); font-weight: bold; margin-top: -15px;">社團博覽會限定版</p>
+      <p>如果我在中興大學讀四年，我的人生會變成什麼樣子？</p>
+      <button id="btn-new-game">開始大學生活</button>
+    </div>
+
+    <!-- 遊戲主畫面 -->
+    <div id="screen-game" class="screen">
+      <header>
+        <div id="ui-semester">大一上</div>
+        <div id="ui-action-count">行動: 0/4</div>
+      </header>
+      
+      <div class="layout-main">
+        <!-- 數值面板 -->
+        <aside id="panel-stats">
+          <h3>個人數值</h3>
+          <ul>
+            <li>📚 學業: <span id="stat-academic">0</span></li>
+            <li>💻 程式能力: <span id="stat-coding">0</span></li>
+            <li>❤️ 人際: <span id="stat-social">0</span></li>
+            <li>😴 精神: <span id="stat-energy">0</span></li>
+            <li>💰 金錢: <span id="stat-money">0</span></li>
+            <li>🔥 肝度: <span id="stat-liver">0</span></li>
+            <li>⭐ 資訊社聲望: <span id="stat-club">0</span></li>
+          </ul>
+        </aside>
+
+        <!-- 事件面板 -->
+        <main id="panel-event">
+          <h2 id="event-title">歡迎來到中興大學</h2>
+          <p id="event-desc">今天是新生訓練，你要做什麼？</p>
+          <div id="event-options">
+            <!-- 按鈕動態生成 -->
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- 結局畫面 -->
+    <div id="screen-ending" class="screen">
+      <h1 id="ending-title">結局標題</h1>
+      <p id="ending-desc">結局描述</p>
+      
+      <div style="margin-top: 30px; padding: 20px; background: #e8f5e9; border-radius: 8px; border: 2px dashed var(--primary-color);">
+        <h3 style="color: var(--primary-color); margin-top: 0;">想改變你真實的大學生活嗎？</h3>
+        <p style="margin-bottom: 0;">立刻加入中興大學資訊社，解鎖更多隱藏人生路徑！<br>📍 攤位編號：資訊社攤位</p>
+      </div>
+      
+      <button id="btn-restart" style="margin-top: 30px;">再玩一次</button>
+    </div>
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/endings.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
